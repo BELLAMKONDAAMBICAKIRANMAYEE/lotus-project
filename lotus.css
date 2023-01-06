@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
 *{
     padding: 0;
     margin:0;
@@ -8,10 +9,16 @@
     width:50px;
     height:50px;
 }
+.nav-item{
+    font-weight: bold;
+}
+.nav-item:hover{
+    border: 1px violet solid;
+}
 .main{
     background: url("https://res.cloudinary.com/digdliiab/image/upload/v1672665168/1211800_pw9fiu.jpg")no-repeat;
     background-size: cover;
-    height: 80vh;
+    height: 100vh;
     background-position:50% 50%;
     width:100%;
     color: white;
@@ -51,13 +58,16 @@
 }
 .text.first-text{
     color:#fff;
-    font-weight: 600;
-    font-size: 2rem;
+    font-size: 2.5rem;
+    font-family: 'Sevillana', cursive;
+    font-weight: 400;
 }
 .text.sec-text{
     color:#fff;
-    font-weight: 600;
-    font-size: 2rem;
+    font-size: 2.5rem;
+    font-weight: 400;
+    font-family: 'Sevillana', cursive;
+
 }
 .text.sec-text:before{
     content:"";
@@ -95,14 +105,47 @@
 
 .brick{
     width:40vw;
-    height:35vh;
+    height:44vh;
 
 }
 .brick:hover{
     transform: scale(1.02);
-        box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-        -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-        -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+        box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75)inset;
+        -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75)inset;
+        -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75)inset;
+}
+.ready{
+    width:40vw;
+    height:36vh;
+
+}
+.ready:hover{
+    transform: scale(1.02);
+        box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75)inset;
+        -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75)inset;
+        -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75)inset;
+}
+.tile{
+    width:40vw;
+    height:53vh;
+
+}
+.tile:hover{
+    transform: scale(1.02);
+        box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75)inset;
+        -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75)inset;
+        -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75)inset;
+}
+.wall{
+    width:40vw;
+    height:49vh;
+
+}
+.wall:hover{
+    transform: scale(1.02);
+        box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75)inset;
+        -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75)inset;
+        -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75)inset;
 }
 #happy{
     background-color: rgb(241, 239, 239);
