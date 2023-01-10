@@ -5,23 +5,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="https://res.cloudinary.com/digdliiab/image/upload/v1672679225/plum-abstract-texture-black-vignette-260nw-136742354_fo9ojm.jpg">
+    <link rel="icon" href="images/icon.png">
     <title>LOTUS</title>
+    <script src="https://kit.fontawesome.com/942547a0cd.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="lotus.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-   <!-- <style>
-        * {
+   <style>
+        /* * {
             border: 1px red solid;
+        } */
+         body{
+            background-color: white !important;
+            color: black !important;
+        } 
+        .icons{
+            text-align: center;
         }
-    </style> -->
+        .icons>a i{
+            color:white;
+            padding: 1%;
+            font-size: 2rem;
+            margin-right: 10%;
+        }
+        .icons>a i:hover{
+            color: rgb(101, 173, 239);
+            
+        }
+    </style>
 </head>
 
 <body>
     <!--Nav Bar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#"><img
-                src="https://res.cloudinary.com/digdliiab/image/upload/v1671723037/background_n7c2pu.png" alt=""
+                src="images/icon.png" alt=""
                 class="nav-logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,7 +48,7 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#homeSection">Home</a>
+                    <a class="nav-link homee" href="#homeSection">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="jointingmortar.html">Jointing Mortar for AAC & fly Ash Bricks</a>
@@ -51,12 +69,13 @@
         </div>
     </nav>
     <!--Home-->
-<div id="homeSection">
+   
+
     <div id="homeSection">
         <section class="main pt-2">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-md-4 col-lg-12 text-center pt-2">
+                    <div class="col-12 col-lg-12 text-center pt-2">
                            <span class="text first-text">Build Your</span> 
                            <span class=" text sec-text">Building With</span>
                         </div>
@@ -74,23 +93,74 @@
                             }
                              textLoad();
                              setInterval(textLoad,12000);
-                           </script>
+                           </script></div>
                    
-                           <div class="col-12 col-md-4 col-lg-12 text-center">
+                           <!-- <div class="col-12 col-md-4 col-lg-12 text-center">
                         <img src="https://res.cloudinary.com/digdliiab/image/upload/v1671723037/background_n7c2pu.png"
                             class="mainlogo">
-                        <h1 class="dry">DRYMIX PRODUCTS</h1>
-                    </div>
+                        
+                    </div> -->
+                    <div class="col-12 col-md-6 col-lg-12 text-center">
+                    <img src="images/dryy.png" alt="" width="20%" height="20%"/>
                 </div>
             </div>
         </div>
         </section>
     </div>
+
+<!--carding-->
+<div class="container card mt-5" style="border: none;">
+    <div class="row">
+        <div class="col-12 col-sm-6 col-lg-3">
+             <img src="images/joint.jpg" >
+             <h5>Jointing Mortar</h5>
+             <p>Jointing Mortar is a high-strength adhesive for quick and firm laying of AAC blocks with thin joints</p>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3">
+             <img src="images/ready.jpg" >
+             <h5>Ready Wall Plaster</h5>
+             <p>Internal plastering on surfaces of concrete columns, beams & walls aligned with surfaces of brick walls will be plastered</p>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3">
+                 <img src="images/tile.jpg">
+                 <h5>Tile Adhesive</h5>
+                 <p>Glue used to bond tiles onto a surface or substrate. The surface, tile and location you are tiling each have varied features.</p>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3">
+                     <img src="images/wall.png">
+                     <h5>Wall Care Putty</h5>
+                     <p>Wall putty is a white cement-based powder made of polymer and other minerals that make the wall look smoother</p>
+        </div>
+    </div>
 </div>
-        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+<!--rotate-->
+ <div class="rotate mt-1">
+        <div class="row">
+     <div class="col-12 col-md-2 col-lg-4">
+       
+        <div class="carousel mt-1">
+            <div class="image"><span></span></div>
+            <div class="image"><span></span></div>
+            <div class="image"><span></span></div>
+            <div class="image"><span></span></div>
+            <div class="image"><span></span></div>
+        </div>
+    </div>
+</div>
+</div>
+<!--Footer-->
+<div class="container-fluid" style="background-color: black; color: white;">
+    <div class="row">
+        <div class="col-12 icons">
+            <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a target="_blank" href="https://api.whatsapp.com/send?phone=919059418925"><i class="fa-brands fa-whatsapp"></i></a>
+    </div>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
             integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
             crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
             crossorigin="anonymous"></script>
 </body>
