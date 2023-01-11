@@ -178,9 +178,9 @@ float: left;
 .mainn{
     background:url("https://res.cloudinary.com/digdliiab/image/upload/v1672676044/2256b240528fe695ef7915ef96498152_tu06cw.jpg")no-repeat;
     background-size: cover;
-    height: 90vh;
+    height: 80vh;
     background-position:50% 50%;
-    width:100%;
+    width:150vh;
     
 }
 .manu{
@@ -195,8 +195,7 @@ float: left;
     background-size: cover;
     height: 10vh;
     background-position:50% 50%;
-    width:100%;
-    
+    width:100%;  
 }
 
 
@@ -292,23 +291,38 @@ float: left;
     padding:1% !important;
     font-size:0.8rem !important
 }
-.d-flex{
-    margin-left: 20rem !important;
-    
-}
-.d-flex td,.d-flex th{
-  border:1px solid white;
-  padding: 7px !important;
-  color:white !important;
-}
-.d-flex th{
-    color: aquamarine !important;
-    font-size: 1rem !important;
-}
-.d-flex1{
-    margin-left: 20rem !important;
-    
-}
+
+
+@media (min-width:992px){
+    .d-flex{
+        margin-left: 20rem !important;
+        
+    }
+    .d-flex td,.d-flex th{
+      border:1px solid white;
+      padding: 7px !important;
+      color:white !important;
+    }
+    .d-flex th{
+        color: aquamarine !important;
+        font-size: 1rem !important;
+    }
+}     
+@media (max-width:576px){
+    .d-flex{
+        margin-left: 0rem;
+        
+    }
+    .d-flex td,.d-flex th{
+      border:1px solid white;
+      padding: 7px !important;
+      color:white !important;
+    }
+    .d-flex th{
+        color: aquamarine !important;
+        font-size: 1rem !important;
+    }
+}   
 .d-flex1 td,.d-flex1 th{
     border:1px solid bisque;
     padding: 7px !important;
@@ -318,6 +332,37 @@ float: left;
       color: aquamarine !important;
       font-size: 1rem !important;
   }
+  @media (max-width:992px){
+    .d-flex1{
+        margin-left: 20rem !important;
+        
+    }
+    .d-flex1 td,.d-flex1 th{
+        border:1px solid bisque;
+        padding: 7px !important;
+        color:white !important;
+      }
+      .d-flex1 th{
+          color: aquamarine !important;
+          font-size: 1rem !important;
+      }
+}
+@media (max-width:576px){
+    .d-flex1{
+        margin-left: 20rem !important;
+        
+    }
+    .d-flex1 td,.d-flex1 th{
+        border:1px solid bisque;
+        padding: 7px !important;
+        color:white !important;
+      }
+      .d-flex1 th{
+          color: aquamarine !important;
+          font-size: 1rem !important;
+      }
+}
+
   .icon-bar a {
     position: fixed;
     top:190px;
