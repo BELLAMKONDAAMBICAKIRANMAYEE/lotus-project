@@ -176,12 +176,11 @@ line-height: 1em;
 float: left;
 }
 .mainn{
-    background:url("https://res.cloudinary.com/digdliiab/image/upload/v1672676044/2256b240528fe695ef7915ef96498152_tu06cw.jpg")no-repeat;
-    background-size: cover;
-    height: 80vh;
-    background-position:50% 50%;
-    width:150vh;
-    
+    background-color: plum;
+   color: black;
+}
+.end{
+    background-color: #fff;
 }
 .manu{
     width:130px;
@@ -190,13 +189,6 @@ float: left;
     margin-left: 150px;
 }
 
-.lain{
-    background:url("https://res.cloudinary.com/digdliiab/image/upload/v1672679225/plum-abstract-texture-black-vignette-260nw-136742354_fo9ojm.jpg")no-repeat;
-    background-size: cover;
-    height: 10vh;
-    background-position:50% 50%;
-    width:100%;  
-}
 
 
 @media (max-width:992px){
@@ -322,7 +314,8 @@ float: left;
         color: aquamarine !important;
         font-size: 1rem !important;
     }
-}   
+}  
+
 .d-flex1 td,.d-flex1 th{
     border:1px solid bisque;
     padding: 7px !important;
@@ -332,36 +325,7 @@ float: left;
       color: aquamarine !important;
       font-size: 1rem !important;
   }
-  @media (max-width:992px){
-    .d-flex1{
-        margin-left: 20rem !important;
-        
-    }
-    .d-flex1 td,.d-flex1 th{
-        border:1px solid bisque;
-        padding: 7px !important;
-        color:white !important;
-      }
-      .d-flex1 th{
-          color: aquamarine !important;
-          font-size: 1rem !important;
-      }
-}
-@media (max-width:576px){
-    .d-flex1{
-        margin-left: 20rem !important;
-        
-    }
-    .d-flex1 td,.d-flex1 th{
-        border:1px solid bisque;
-        padding: 7px !important;
-        color:white !important;
-      }
-      .d-flex1 th{
-          color: aquamarine !important;
-          font-size: 1rem !important;
-      }
-}
+
 
   .icon-bar a {
     position: fixed;
