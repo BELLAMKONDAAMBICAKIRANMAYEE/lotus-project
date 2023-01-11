@@ -11,7 +11,7 @@ body{
     text-align: center;
     font-family: sans-serif;
     color: #fff !important;
-    background:linear-gradient(#3e2c29,gold,#3e2c29) !important;
+    background:linear-gradient(rgb(232, 165, 232),#a055a4,rgb(171, 29, 162),#64016d) !important;
     
 }
 .nav-logo{
@@ -178,7 +178,7 @@ float: left;
 .mainn{
     background:url("https://res.cloudinary.com/digdliiab/image/upload/v1672676044/2256b240528fe695ef7915ef96498152_tu06cw.jpg")no-repeat;
     background-size: cover;
-    height: 80vh;
+    height: 90vh;
     background-position:50% 50%;
     width:100%;
     
@@ -233,6 +233,7 @@ float: left;
     transform-style:preserve-3d;
     animation:rotate360 60s infinite forwards linear;
     margin-top: 0px;
+  
 }
 .image{
     position:absolute;
@@ -243,7 +244,7 @@ float: left;
     right:10px;
     background-size: cover;
     display: flex;
-
+    background-color:#730778;
 }
 
 @keyframes rotate360{
@@ -271,17 +272,69 @@ float: left;
     background-image: url("images/2.png");
     transform: rotateY(120deg) translateZ(430px);
 }
- /*.image:nth-child(5){
-    background-image:url("images/elephant1.png");
+.image:nth-child(5){  
+    background-image: url("images/7.png");
     transform: rotateY(160deg) translateZ(430px);
 }
 .image:nth-child(6){
-    background-image:url("images/.png");
-    transform: rotateY(160deg) translateZ(430px);
-}*/
-
-
+    background-image: url("images/1.png");
+    transform: rotateY(200deg) translateZ(430px);
+}
+.image:nth-child(7){
+    background-image:url("images/3.png");
+    transform: rotateY(240deg) translateZ(430px);
+}
+.image:nth-child(8){
+    background-image: url("images/2.png");
+    transform: rotateY(280deg) translateZ(430px);
+}
 .table td, .table th{
     padding:1% !important;
     font-size:0.8rem !important
+}
+.d-flex{
+    margin-left: 20rem !important;
+    
+}
+.d-flex td,.d-flex th{
+  border:1px solid white;
+  padding: 7px !important;
+  color:white !important;
+}
+.d-flex th{
+    color: aquamarine !important;
+    font-size: 1rem !important;
+}
+.d-flex1{
+    margin-left: 20rem !important;
+    
+}
+.d-flex1 td,.d-flex1 th{
+    border:1px solid bisque;
+    padding: 7px !important;
+    color:white !important;
+  }
+  .d-flex1 th{
+      color: aquamarine !important;
+      font-size: 1rem !important;
+  }
+  .icon-bar a {
+    position: fixed;
+    top:190px;
+    right:-89px;
+    transform: rotate(-90deg);
+    display: block;
+    text-align: center;
+    padding: 5px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+}
+.facebook {
+    width: 220px;
+    height: 40px;
+    background: #257c30;
+    color: white;
+    right: 0;
+    border-radius: 5px;
 }
